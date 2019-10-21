@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 
+//components import
+import 'components/horizontalList.dart';
+
 void main() => runApp(HomePage());
 
 class HomePage extends StatefulWidget {
@@ -143,7 +146,9 @@ class _HomePageState extends State<HomePage> {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Text('Categories'),
-              )
+              ),
+
+              HorizontalList(),
             ],
           ),
       ),
